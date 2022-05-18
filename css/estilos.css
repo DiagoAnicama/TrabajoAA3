@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+#contenedor{
+    width: 1000px;
+    background-color: darkorchid;
+    margin: auto;
+    display: flex;
+}
+#principal{
+    width: 710px;
+    height: 800px;
+    background-color: rgba(249, 248, 248, 0.977);
+    margin: auto; 
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:column;
+    position: relative;
+    top: -70px;
+    right: -146px;
+    border-radius: 5px;
+
+}
+
+.contenido2{
+    width: 300px;
+    height: 45px;
+    background-color: rgb(250, 253, 251);
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: -600px;
+    right: 290px;
+}
+.contenido{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(38, 132, 66);
+    text-decoration: none;
+    color: rgb(244, 244, 250);
+    font-size: 24px;
+    text-align: left;
+    position: relative;
+    top: -600px;
+    right: 290px;
+    outline: 1px solid rgb(241, 239, 85);
+    
+}
+
+#principal2{
+    background: crimson;
+    width: 500px;
+    
+}
+
+body{
+    background-color: rgb(167, 197, 35);
+}
+
+#titulo{
+    background: url("../Imagenes/bosque.jpg");
+    width: 1000px;
+    height: 350px;
+    margin: auto;
+
+}
+
+#letras{
+    width: 1000px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.438);
+    text-decoration: none;
+    color: aliceblue;
+    position: relative;
+    top: 50px;
+    left: 0px;
+    text-align: left;
+    padding: 55px;
+    
+}
+
+#print{
+    width: 300px;
+    height: 200px;
+    background: url(../Imagenes/frutas.jpg);
+    background-size: cover;
+    position: relative;
+    top: 20px;
+    right: -15px;
+    border-radius: 3px;
+
+}
+
+#letras2{
+    width: 100%;
+    right: 40px;
+    text-align: left;
+    padding: 30px;
+
+}
+
+#print2{
+    width: 300px;
+    height: 250px;
+    position: relative;
+    top: -200px;
+    right: -400px;
+}
+
+.hijo{
+    width: 650px;
+    height: 3000px;
+    background: url("https://www.youtube.com/watch?v=TcvrM_GwKyQ&ab_channel=HistoriasdeLuz");
+    position: relative;
+    top: -150px;
+    right: -20px;
+}
+
+
